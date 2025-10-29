@@ -13,6 +13,18 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 
+EMAIL_SUBJECT_PREFIX = "[Ticketsystem] "
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.deinefirma.local'
+EMAIL_PORT = 587           # oder 25/465, je nach Server
+EMAIL_USE_TLS = True       # oder False, je nach Server
+EMAIL_HOST_USER = ''       # bei Relay meist leer
+EMAIL_HOST_PASSWORD = ''
+DEFAULT_FROM_EMAIL = 'ticketsystem@deinefirma.local'
+SUPPORT_NOTIFY_EMAIL = 'it-support@deinefirma.local'
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -24,9 +36,6 @@ STATICFILES_DIRS = [BASE_DIR / 'static']  # Ordner erstellen wir gleich
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'a.demirtas@fuchs-kunststoff.de'
 
 
 # Quick-start development settings - unsuitable for production
@@ -67,14 +76,15 @@ ROOT_URLCONF = 'helpdesk.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        "DIRS": [BASE_DIR / "templates"],   # <— hinzufügen
+        "APP_DIRS": True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
             ],
         },
     },

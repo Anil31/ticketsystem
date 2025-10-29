@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de"><body>
+  <p>Hallo {{ ticket.name }},</p>
+  <p>dein Ticket wurde erstellt.</p>
+
+  <p><strong>Ticket-Nr.:</strong> #{{ ticket.id }}<br>
+     <strong>Titel:</strong> {{ ticket.title }}<br>
+     <strong>Priorität:</strong> {{ ticket.get_priority_display }}<br>
+     <strong>Kategorie:</strong> {{ ticket.category|default:"-" }}<br>
+     <strong>Status:</strong> {{ ticket.get_status_display }}<br>
+     <strong>Erstellt am:</strong> {{ ticket.created_at|date:"d.m.Y H:i" }}
+  </p>
+
+  <p><strong>Beschreibung:</strong><br>
+     {{ ticket.description|linebreaks }}
+  </p>
+
+  <p><em>Absender: {{ ticket.name }} &lt;{{ ticket.email }}&gt;</em></p>
+  <p>Viele Grüße<br>Euer IT-Support</p>
+</body></html>
