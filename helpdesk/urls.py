@@ -12,6 +12,7 @@ urlpatterns = [
     path("danke/", tviews.ticket_thanks, name="ticket_thanks"),
 
     # Intern (Liste/Details/Statuswechsel)
+    path("intern/", tviews.internal_dashboard, name="intern_dashboard"), 
     path("intern/tickets/", tviews.internal_ticket_list, name="intern_ticket_list"),
     path("intern/tickets/<int:pk>/", tviews.internal_ticket_detail, name="intern_ticket_detail"),
 ]

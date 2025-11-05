@@ -1,0 +1,11 @@
+{% extends "admin/index.html" %}
+{% block content %}
+  <div class="dashboard" style="margin-bottom:1.5rem;">
+    <h2>Ticketsystem – Schnellzugriff</h2>
+    <div>
+      <a href="/intern/" class="button" style="margin-right:.5rem;">Dashboard</a>
+      <a href="/intern/tickets/" class="button">Interne Liste</a>
+    </div>
+  </div>
+  {{ block.super }}
+{% endblock %}

@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+
+<h1 class="mb-3">Dashboard</h1>
+
+<!-- KPIs -->
+<div class="row g-3 mb-3">
+  <div class="col-md-3">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="text-muted">Gesamt</div>
+        <div class="fs-3 fw-bold">{{ total }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="text-muted">Offen</div>
+        <div class="fs-3 fw-bold text-danger">{{ count_open }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="text-muted">In Bearbeitung</div>
+        <div class="fs-3 fw-bold text-warning">{{ count_progress }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="text-muted">Gelöst</div>
+        <div class="fs-3 fw-bold text-success">{{ count_resolved }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Verteilung offene Tickets nach Priorität -->
+<div class="row g-3 mb-3">
+  <div class="col-lg-6">
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">Offene Tickets nach Priorität</h5>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Niedrig</span><span class="badge text-bg-secondary">{{ prio_open_low }}</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Mittel</span><span class="badge text-bg-info">{{ prio_open_medium }}</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Hoch</span><span class="badge text-bg-warning text-dark">{{ prio_open_high }}</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Kritisch</span><span class="badge text-bg-danger">{{ prio_open_critical }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Letzte 7 Tage -->
+  <div class="col-lg-6">
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title">Erstellte Tickets – letzte 7 Tage</h5>
+        <div class="table-responsive">
+          <table class="table table-sm align-middle">
+            <thead class="table-light">
+              <tr><th>Datum</th><th>Anzahl</th></tr>
+            </thead>
+            <tbody>
+              {% for d in last7 %}
+              <tr>
+                <td>{{ d.date|date:"d.m.Y" }}</td>
+                <td>{{ d.count }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-muted small mb-0">Später können wir hier ein Diagramm (Chart.js) einbauen.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Zuletzt aktualisierte Tickets -->
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">Zuletzt aktualisiert</h5>
+    <div class="table-responsive">
+      <table class="table table-hover align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>#</th>
+            <th>Titel</th>
+            <th>Status</th>
+            <th>Priorität</th>
+            <th>Von</th>
+            <th>Aktualisiert</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in recent %}
+          <tr>
+            <td>#{{ t.id }}</td>
+            <td>{{ t.title }}</td>
+            <td>
+              {% if t.status == 'open' %}
+                <span class="badge text-bg-danger">Offen</span>
+              {% elif t.status == 'in_progress' %}
+                <span class="badge text-bg-warning text-dark">In Bearbeitung</span>
+              {% elif t.status == 'resolved' %}
+                <span class="badge text-bg-success">Gelöst</span>
+              {% else %}
+                <span class="badge text-bg-secondary">{{ t.get_status_display }}</span>
+              {% endif %}
+            </td>
+            <td>
+              <span class="badge {% if t.priority == 'critical' %}text-bg-danger{% elif t.priority == 'high' %}text-bg-warning{% elif t.priority == 'medium' %}text-bg-info{% else %}text-bg-secondary{% endif %}">
+                {{ t.get_priority_display }}
+              </span>
+            </td>
+            <td>{{ t.name }} <span class="text-muted">({{ t.email }})</span></td>
+            <td>{{ t.updated_at|date:"d.m.Y H:i" }}</td>
+            <td><a class="btn btn-sm btn-outline-primary" href="{% url 'intern_ticket_detail' t.id %}">Öffnen</a></td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="7" class="text-center text-muted py-4">Noch keine Tickets.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

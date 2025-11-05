@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Ticket #{{ ticket.id }}{% endblock %}
+{% block content %}
+
+<a href="{% url 'intern_ticket_list' %}" class="btn btn-link">&larr; Zurück zur Liste</a>
+
+<div class="row g-3">
+  <div class="col-lg-8">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h3 class="card-title mb-1">#{{ ticket.id }} – {{ ticket.title }}</h3>
+        <div class="mb-2">
+          <span class="badge text-bg-secondary">{{ ticket.get_status_display }}</span>
+          <span class="badge {% if ticket.priority == 'critical' %}text-bg-danger{% elif ticket.priority == 'high' %}text-bg-warning{% elif ticket.priority == 'medium' %}text-bg-info{% else %}text-bg-secondary{% endif %}">
+            {{ ticket.get_priority_display }}
+          </span>
+        </div>
+        <p class="text-muted mb-2">
+          Kategorie: {{ ticket.category|default:"-" }} ·
+          Von: <strong>{{ ticket.name }}</strong> &lt;{{ ticket.email }}&gt; ·
+          Erstellt: {{ ticket.created_at|date:"d.m.Y H:i" }}
+        </p>
+        <hr>
+        <p>{{ ticket.description|linebreaks }}</p>
+      </div>
+    </div>
+
+    <div class="card shadow-sm mt-3">
+      <div class="card-body">
+        <h5 class="card-title">Anhänge</h5>
+        {% if ticket.attachments.all %}
+          <ul class="list-group">
+            {% for a in ticket.attachments.all %}
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <a href="{{ a.file.url }}" target="_blank">{{ a.original_name }}</a>
+                  <div class="small text-muted">Hochgeladen am {{ a.uploaded_at|date:"d.m.Y H:i" }} von {{ a.uploaded_by_name|default:"-" }}</div>
+                </div>
+                <span class="text-muted">{{ a.file.size|filesizeformat }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="text-muted mb-0">Keine Anhänge vorhanden.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+<div class="card-body">
+  <h5 class="card-title mb-3">Status ändern</h5>
+  <form method="post">
+    {% csrf_token %}
+    <div class="btn-group w-100" role="group">
+      <button name="status" value="open"
+              class="btn {% if ticket.status == 'open' %}btn-danger{% else %}btn-outline-danger{% endif %}">
+        Offen
+      </button>
+      <button name="status" value="in_progress"
+              class="btn {% if ticket.status == 'in_progress' %}btn-warning{% else %}btn-outline-warning{% endif %}">
+        In Bearbeitung
+      </button>
+      <button name="status" value="resolved"
+              class="btn {% if ticket.status == 'resolved' %}btn-success{% else %}btn-outline-success{% endif %}">
+        Gelöst
+      </button>
+    </div>
+  </form>
+</div>
+
+
+{% endblock %}
