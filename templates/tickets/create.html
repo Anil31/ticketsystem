@@ -56,9 +56,8 @@
 
       <div class="col-12">
         <label class="form-label">Anhänge (optional)</label>
-        {{ a_form.files }}
-        <div class="form-text">{{ a_form.fields.files.help_text }}</div>
-        {% for e in a_form.files.errors %}<div class="text-danger small">{{ e }}</div>{% endfor %}
+        <input type="file" name="files" multiple class="form-control" />
+        <div class="form-text">Erlaubt: PNG, JPG, JPEG, GIF, PDF • Max ~20 MB pro Datei</div>
       </div>
     </div>
 

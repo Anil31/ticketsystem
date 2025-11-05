@@ -1,0 +1,18 @@
+Hallo {{ ticket.name }},
+
+dein Ticket wurde erstellt.
+
+Ticket-Nr.: #{{ ticket.id }}
+Titel: {{ ticket.title }}
+Priorität: {{ ticket.get_priority_display }}
+Kategorie: {{ ticket.category|default:"-" }}
+Status: {{ ticket.get_status_display }}
+Erstellt am: {{ ticket.created_at|date:"d.m.Y H:i" }}
+
+Beschreibung:
+{{ ticket.description }}
+
+Absender: {{ ticket.name }} <{{ ticket.email }}>
+
+Viele Grüße
+Euer IT-Support

@@ -5,7 +5,7 @@ from django.template.loader import render_to_string
 from django.core.mail import EmailMultiAlternatives
 from django.conf import settings
 
-from .forms import TicketForm, AttachmentForm
+from .forms import TicketForm
 from .models import Attachment
 
 def _send_ticket_created_mail(ticket):
@@ -39,12 +39,13 @@ def _send_ticket_created_mail(ticket):
 def ticket_create(request):
     if request.method == "POST":
         t_form = TicketForm(request.POST)
-        a_form = AttachmentForm(request.POST, request.FILES)
 
-        if t_form.is_valid() and a_form.is_valid():
+        if t_form.is_valid():
             ticket = t_form.save()
 
-            for f in a_form.cleaned_data.get("files", []):
+            # Dateien direkt aus request.FILES holen
+            files = request.FILES.getlist("files")
+            for f in files:
                 Attachment.objects.create(
                     ticket=ticket,
                     file=f,
@@ -52,15 +53,12 @@ def ticket_create(request):
                     original_name=f.name,
                 )
 
-            # >>> Mail versenden
             _send_ticket_created_mail(ticket)
-
             return redirect(reverse("ticket_thanks") + f"?id={ticket.pk}")
     else:
         t_form = TicketForm()
-        a_form = AttachmentForm()
 
-    return render(request, "tickets/create.html", {"t_form": t_form, "a_form": a_form})
+    return render(request, "tickets/create.html", {"t_form": t_form})
 
 def ticket_thanks(request):
     tid = request.GET.get("id")

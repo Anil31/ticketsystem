@@ -29,17 +29,10 @@ class AttachmentForm(forms.Form):
     files = forms.FileField(
         label="Anhänge (optional)",
         required=False,
-        widget=MultiFileInput(),   # <- statt ClearableFileInput(attrs={"multiple": True})
-        validators=[FileExtensionValidator(allowed_extensions=ALLOWED_EXTS)],
-        help_text=f"Erlaubt: {', '.join(ALLOWED_EXTS)} • Max {MAX_UPLOAD_MB} MB pro Datei",
+        widget=MultiFileInput(),
+        help_text="Erlaubte Formate: PNG, JPG, PDF, GIF (max. ca. 20 MB pro Datei)",
     )
 
     def clean_files(self):
-        data = self.files.getlist("files")
-        for f in data:
-            ext = os.path.splitext(f.name)[1].lstrip(".").lower()
-            if ext not in ALLOWED_EXTS:
-                raise forms.ValidationError(f"Dateityp '{ext}' ist nicht erlaubt.")
-            if f.size > MAX_UPLOAD_MB * 1024 * 1024:
-                raise forms.ValidationError(f"Datei '{f.name}' ist größer als {MAX_UPLOAD_MB} MB.")
-        return data
+        return self.files.getlist("files")
+        
