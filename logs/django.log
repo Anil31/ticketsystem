@@ -1,0 +1,12 @@
+[2025-11-05 15:27:40,137] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:28:31,810] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\views.py changed, reloading.
+[2025-11-05 15:28:32,209] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:30:20,361] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\views.py changed, reloading.
+[2025-11-05 15:30:20,765] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:30:48,275] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:31:34,660] INFO tickets.views Ticket #7 erstellt von 23423r a <a.demirtas@fuchs-kunststoff.de> | Titel: werasf
+[2025-11-05 16:06:59,428] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\settings.py changed, reloading.
+[2025-11-05 16:07:00,028] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 08:33:41,470] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 08:33:51,541] WARNING django.request Not Found: /favicon.ico
+[2025-11-10 08:38:36,862] WARNING django.request Not Found: /admin+

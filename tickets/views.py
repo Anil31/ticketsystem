@@ -9,10 +9,14 @@ from django.core.paginator import Paginator
 from django.db.models import Q, Count                   
 from django.contrib import messages              
 from django.utils import timezone
-
+from django.contrib.admin.views.decorators import staff_member_required
 
 from .forms import TicketForm
 from .models import Attachment, Ticket
+
+import logging
+logger = logging.getLogger(__name__)
+
 
 def _send_ticket_created_mail(ticket):
     subject = f"[Ticket #{ticket.id}] {ticket.title}"
@@ -42,12 +46,15 @@ def _send_ticket_created_mail(ticket):
         copy.attach_alternative(html, "text/html")
         copy.send(fail_silently=True)
 
+        
 def ticket_create(request):
     if request.method == "POST":
         t_form = TicketForm(request.POST)
 
         if t_form.is_valid():
             ticket = t_form.save()
+            logger.info("Ticket #%s erstellt von %s <%s> | Titel: %s",
+            ticket.id, ticket.name, ticket.email, ticket.title)
 
             # Dateien direkt aus request.FILES holen
             files = request.FILES.getlist("files")
@@ -71,6 +78,7 @@ def ticket_thanks(request):
     return render(request, "tickets/thanks.html", {"ticket_id": tid})
 
 # --- Interne Liste ---
+@staff_member_required
 def internal_ticket_list(request):
     q = request.GET.get("q", "").strip()
     status = request.GET.get("status", "").strip()
@@ -101,6 +109,7 @@ def internal_ticket_list(request):
     )
 
 # --- Interne Detailseite + Status ändern ---
+@staff_member_required
 def internal_ticket_detail(request, pk):
     t = get_object_or_404(Ticket, pk=pk)
 
@@ -118,9 +127,8 @@ def internal_ticket_detail(request, pk):
 
     return render(request, "tickets/intern_detail.html", {"ticket": t})
 
-
+@staff_member_required
 def internal_dashboard(request):
-
     # Status-KPIs
     total = Ticket.objects.count()
     count_open = Ticket.objects.filter(status=Ticket.Status.OPEN).count()
