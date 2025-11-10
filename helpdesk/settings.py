@@ -34,7 +34,21 @@ SECRET_KEY = 'django-insecure-fmd4ht_4xuuxq4k0q=yjvg8&h0uk04p!r(@p%yd4te56z#t=39
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost", "127.0.0.1",            # für Laptop
+    "server-dc", "server-dc.fuchs-kunststoff.intern", "192.168.140.122",  # für Server
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost", "http://127.0.0.1",  # für Laptop
+    "http://server-dc", "http://server-dc.fuchs-kunststoff.intern", "http://192.168.140.122",  # für Server
+]
+
+if DEBUG:
+    CSRF_TRUSTED_ORIGINS += [
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+    ]
 
 
 # Application definition

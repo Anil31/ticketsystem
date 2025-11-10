@@ -10,3 +10,8 @@
 [2025-11-10 08:33:41,470] INFO django.utils.autoreload Watching for file changes with StatReloader
 [2025-11-10 08:33:51,541] WARNING django.request Not Found: /favicon.ico
 [2025-11-10 08:38:36,862] WARNING django.request Not Found: /admin+
+[2025-11-10 14:58:58,086] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:14:00,356] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\settings.py changed, reloading.
+[2025-11-10 15:14:00,994] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:15:07,932] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:15:31,917] WARNING django.request Not Found: /favicon.ico
