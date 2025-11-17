@@ -12,18 +12,34 @@
 <div class="container py-5">
   <div class="card p-4 shadow-lg glass-card">
   <style>
-  :root {
-    --bs-primary: #0093d0;
-    --bs-primary-rgb: 0,147,208;
-  }
+    :root {
+      --bs-primary: #0093d0;
+      --bs-primary-rgb: 0,147,208;
+    }
   </style>
 
     <h1>Vielen Dank!</h1>
     <p>Dein Ticket wurde erstellt.</p>
+
     {% if ticket_id %}
       <p><strong>Ticket-ID:</strong> #{{ ticket_id }}</p>
     {% endif %}
-    <a href="/" class="btn btn-primary">Weiteres Ticket erstellen</a>
+
+    <!-- NEU: Zwei Buttons untereinander (mobil) oder nebeneinander (desktop) -->
+    <div class="d-flex flex-column flex-md-row gap-2 mt-4">
+
+      <a href="/" class="btn btn-primary w-100">
+        Weiteres Ticket erstellen
+      </a>
+
+      {% if request.user.is_authenticated %}
+      <a href="{% url 'tickets:my_tickets' %}" class="btn btn-outline-secondary w-100">
+        Meine Tickets ansehen
+      </a>
+      {% endif %}
+
+    </div>
+
   </div>
 </div>
 </body>

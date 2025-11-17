@@ -12,3 +12,7 @@ media/
 .vscode/
 .idea/
 *.swp
+
+.env
+db.sqlite3
+logs/

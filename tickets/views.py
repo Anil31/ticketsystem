@@ -10,9 +10,13 @@ from django.db.models import Q, Count
 from django.contrib import messages              
 from django.utils import timezone
 from django.contrib.admin.views.decorators import staff_member_required
-
 from .forms import TicketForm
 from .models import Attachment, Ticket
+from django.contrib.auth import logout as auth_logout
+
+from django.contrib.auth.decorators import login_required    # (für gleich)
+from django.contrib.auth import get_user_model
+User = get_user_model()
 
 import logging
 logger = logging.getLogger(__name__)
@@ -52,11 +56,19 @@ def ticket_create(request):
         t_form = TicketForm(request.POST)
 
         if t_form.is_valid():
-            ticket = t_form.save()
-            logger.info("Ticket #%s erstellt von %s <%s> | Titel: %s",
-            ticket.id, ticket.name, ticket.email, ticket.title)
+            ticket = t_form.save(commit=False)
 
-            # Dateien direkt aus request.FILES holen
+            # Wenn Nutzer eingeloggt ist → reporter setzen + Name/E-Mail vorbelegen
+            if request.user.is_authenticated:
+                ticket.reporter = request.user
+                if not ticket.name:
+                    ticket.name = f"{request.user.first_name} {request.user.last_name}".strip() or request.user.username
+                if not ticket.email:
+                    ticket.email = getattr(request.user, "email", "") or ""
+
+            ticket.save()
+
+            # Dateien aus request.FILES anhängen
             files = request.FILES.getlist("files")
             for f in files:
                 Attachment.objects.create(
@@ -67,7 +79,7 @@ def ticket_create(request):
                 )
 
             _send_ticket_created_mail(ticket)
-            return redirect(reverse("ticket_thanks") + f"?id={ticket.pk}")
+            return redirect(reverse("tickets:ticket_thanks") + f"?id={ticket.pk}")
     else:
         t_form = TicketForm()
 
@@ -169,3 +181,45 @@ def internal_dashboard(request):
         "last7": last7,
     }
     return render(request, "tickets/intern_dashboard.html", ctx)
+
+@login_required
+def my_ticket_list(request):
+    q = request.GET.get("q", "").strip()
+    status = request.GET.get("status", "").strip()
+
+    qs = Ticket.objects.filter(reporter=request.user).order_by("-updated_at")
+    if status:
+        qs = qs.filter(status=status)
+    if q:
+        qs = qs.filter(Q(title__icontains=q) | Q(description__icontains=q))
+
+    paginator = Paginator(qs, 12)
+    page_obj = paginator.get_page(request.GET.get("page"))
+
+    # Wir verwenden vorerst dein bestehendes internes List-Template,
+    # später bauen wir eine eigene Seite für Mitarbeitende.
+    return render(request, "tickets/my_tickets.html",
+        {
+            "page_obj": page_obj,
+            "q": q,
+            "status": status,
+            "statuses": Ticket.Status.choices,
+            "my_view": True,  # optionaler Flag fürs Template
+        },
+    )
+
+
+@login_required
+def my_ticket_detail(request, pk):
+    # Mitarbeitende sehen nur eigene Tickets; Staff/Admin sehen alle
+    if request.user.is_staff or request.user.is_superuser:
+        t = get_object_or_404(Ticket, pk=pk)
+    else:
+        t = get_object_or_404(Ticket, pk=pk, reporter=request.user)
+
+    return render(request, "tickets/my_ticket_detail.html", {"ticket": t})
+
+def logout_view(request):
+    auth_logout(request)
+    messages.success(request, "Du bist abgemeldet.")
+    return redirect("login")  # oder settings.LOGOUT_REDIRECT_URL

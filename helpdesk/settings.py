@@ -15,7 +15,6 @@ EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = 'ticketsystem@fuchs-kunststoff.de'  # Absender
 SUPPORT_NOTIFY_EMAIL = 'edv@fuchs-kunststoff.de'         # interne Kopie
 
-LOGIN_URL = "/admin/login/"
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -71,7 +70,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+LOGIN_URL = "login"
+LOGIN_REDIRECT_URL = "tickets:my_tickets"
+LOGOUT_REDIRECT_URL = "login"
 ROOT_URLCONF = 'helpdesk.urls'
+
+
 
 TEMPLATES = [
     {

@@ -1,0 +1,856 @@
+[2025-11-05 15:27:40,137] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:28:31,810] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\views.py changed, reloading.
+[2025-11-05 15:28:32,209] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:30:20,361] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\views.py changed, reloading.
+[2025-11-05 15:30:20,765] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:30:48,275] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-05 15:31:34,660] INFO tickets.views Ticket #7 erstellt von 23423r a <a.demirtas@fuchs-kunststoff.de> | Titel: werasf
+[2025-11-05 16:06:59,428] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\settings.py changed, reloading.
+[2025-11-05 16:07:00,028] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 08:33:41,470] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 08:33:51,541] WARNING django.request Not Found: /favicon.ico
+[2025-11-10 08:38:36,862] WARNING django.request Not Found: /admin+
+[2025-11-10 14:58:58,086] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:14:00,356] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\settings.py changed, reloading.
+[2025-11-10 15:14:00,994] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:15:07,932] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-10 15:15:31,917] WARNING django.request Not Found: /favicon.ico
+[2025-11-11 10:50:47,528] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-11 10:56:03,212] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-11 10:56:10,078] WARNING django.request Not Found: /favicon.ico
+[2025-11-11 13:07:36,520] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-11 13:08:01,328] WARNING django.request Not Found: /static/admin/css/dark_mode.css
+[2025-11-11 13:08:01,328] WARNING django.request Not Found: /static/admin/css/base.css
+[2025-11-11 13:08:01,329] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:01,329] WARNING django.request Not Found: /static/admin/css/dashboard.css
+[2025-11-11 13:08:01,329] WARNING django.request Not Found: /static/admin/js/theme.js
+[2025-11-11 13:08:01,329] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:08:01,336] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:01,337] WARNING django.request Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-11 13:08:01,338] WARNING django.request Not Found: /static/admin/css/dashboard.css
+[2025-11-11 13:08:25,658] WARNING django.request Not Found: /static/admin/css/base.css
+[2025-11-11 13:08:25,659] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:25,659] WARNING django.request Not Found: /static/admin/js/theme.js
+[2025-11-11 13:08:25,661] WARNING django.request Not Found: /static/admin/css/dashboard.css
+[2025-11-11 13:08:25,661] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:08:25,662] WARNING django.request Not Found: /static/admin/css/dark_mode.css
+[2025-11-11 13:08:25,669] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:25,669] WARNING django.request Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-11 13:08:25,670] WARNING django.request Not Found: /static/admin/css/dashboard.css
+[2025-11-11 13:08:25,671] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:08:36,219] WARNING django.request Not Found: /static/admin/css/base.css
+[2025-11-11 13:08:36,220] WARNING django.request Not Found: /static/admin/css/dark_mode.css
+[2025-11-11 13:08:36,221] WARNING django.request Not Found: /static/admin/js/theme.js
+[2025-11-11 13:08:36,221] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:36,222] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:08:36,223] WARNING django.request Not Found: /static/admin/css/dashboard.css
+[2025-11-11 13:08:36,229] WARNING django.request Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-11 13:08:53,913] WARNING django.request Not Found: /static/admin/css/base.css
+[2025-11-11 13:08:53,914] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:53,915] WARNING django.request Not Found: /static/admin/js/theme.js
+[2025-11-11 13:08:53,916] WARNING django.request Not Found: /static/admin/css/dark_mode.css
+[2025-11-11 13:08:53,919] WARNING django.request Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+[2025-11-11 13:08:53,923] WARNING django.request Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+[2025-11-11 13:08:53,926] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:08:53,931] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:08:53,935] WARNING django.request Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-11 13:08:53,949] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:38:39,666] WARNING django.request Not Found: /static/admin/css/base.css
+[2025-11-11 13:38:39,668] WARNING django.request Not Found: /static/admin/css/dark_mode.css
+[2025-11-11 13:38:39,671] WARNING django.request Not Found: /static/admin/js/theme.js
+[2025-11-11 13:38:39,673] WARNING django.request Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+[2025-11-11 13:38:39,674] WARNING django.request Not Found: /static/admin/css/nav_sidebar.css
+[2025-11-11 13:38:39,676] WARNING django.request Not Found: /static/admin/css/changelists.css
+[2025-11-11 13:38:39,677] WARNING django.request Not Found: /static/admin/js/jquery.init.js
+[2025-11-11 13:38:39,679] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:38:39,682] WARNING django.request Not Found: /static/admin/js/core.js
+[2025-11-11 13:38:39,684] WARNING django.request Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[2025-11-11 13:38:39,686] WARNING django.request Not Found: /static/admin/js/actions.js
+[2025-11-11 13:38:39,688] WARNING django.request Not Found: /static/admin/js/urlify.js
+[2025-11-11 13:38:39,690] WARNING django.request Not Found: /static/admin/js/prepopulate.js
+[2025-11-11 13:38:39,692] WARNING django.request Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+[2025-11-11 13:38:39,693] WARNING django.request Not Found: /static/admin/img/search.svg
+[2025-11-11 13:38:39,697] WARNING django.request Not Found: /static/admin/js/nav_sidebar.js
+[2025-11-11 13:38:39,698] WARNING django.request Not Found: /static/admin/js/filters.js
+[2025-11-11 13:38:39,698] WARNING django.request Not Found: /static/admin/css/responsive.css
+[2025-11-11 13:38:58,283] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-11 14:34:20,544] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-11 14:34:42,701] WARNING django.security.SuspiciousSession Session data corrupted
+[2025-11-11 14:34:42,740] WARNING django.security.SuspiciousSession Session data corrupted
+[2025-11-11 14:34:56,187] WARNING django.security.SuspiciousSession Session data corrupted
+[2025-11-11 15:48:32,444] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\models.py changed, reloading.
+[2025-11-11 15:48:34,767] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 12:59:36,808] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 12:59:47,213] WARNING django.request Not Found: /favicon.ico
+[2025-11-12 13:47:57,944] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\settings.py changed, reloading.
+[2025-11-12 13:47:58,567] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 14:19:53,856] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 14:31:09,464] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 14:35:31,028] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\urls.py changed, reloading.
+[2025-11-12 14:35:31,510] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:02:16,781] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-12 15:02:17,311] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:03:06,765] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:10:35,736] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-12 15:10:36,262] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:12:07,704] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:25:07,853] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:26:35,836] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table tickets_ticket has no column named reporter_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 68, in ticket_create
+    ticket.save()
+    ~~~~~~~~~~~^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table tickets_ticket has no column named reporter_id
+[2025-11-12 15:31:39,900] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:44:05,943] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:49:16,067] WARNING django.request Method Not Allowed (GET): /logout/
+[2025-11-12 15:49:25,322] WARNING django.request Method Not Allowed (GET): /logout/
+[2025-11-12 15:49:43,748] WARNING django.request Method Not Allowed (GET): /logout/
+[2025-11-12 15:51:41,777] WARNING django.request Method Not Allowed (GET): /logout/
+[2025-11-12 15:57:57,186] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\urls.py changed, reloading.
+[2025-11-12 15:57:59,595] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 15:59:41,124] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\urls.py changed, reloading.
+[2025-11-12 15:59:41,695] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:03:21,259] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:07:12,106] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\urls.py changed, reloading.
+[2025-11-12 16:07:12,608] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:09:10,135] INFO django.utils.autoreload C:\dev\ticketsystem\helpdesk\urls.py changed, reloading.
+[2025-11-12 16:09:10,608] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:09:34,979] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:18:51,825] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:30:43,725] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:31:00,748] WARNING django.request Not Found: /
+[2025-11-12 16:35:24,905] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-12 16:35:25,390] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-12 16:35:48,221] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-13 12:42:59,916] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-13 12:43:19,017] WARNING django.request Not Found: /favicon.ico
+[2025-11-13 12:43:59,856] ERROR django.request Internal Server Error: /intern/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 111, in internal_ticket_list
+    return render(
+        request,
+    ...<6 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-13 12:44:03,536] WARNING django.request Not Found: /intern/tickets/
+[2025-11-13 12:44:17,231] ERROR django.request Internal Server Error: /intern/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 111, in internal_ticket_list
+    return render(
+        request,
+    ...<6 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 08:15:24,845] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 08:15:34,284] WARNING django.request Not Found: /favicon.ico
+[2025-11-17 08:15:56,225] WARNING django.request Not Found: /tickets
+[2025-11-17 08:16:00,911] ERROR django.request Internal Server Error: /tickets/me/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 200, in my_ticket_list
+    return render(
+        request,
+    ...<7 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 08:33:57,268] WARNING django.request Not Found: /tickets
+[2025-11-17 08:34:08,323] ERROR django.request Internal Server Error: /tickets/me/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 200, in my_ticket_list
+    return render(
+        request,
+    ...<7 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 08:36:42,227] ERROR django.request Internal Server Error: /tickets/me/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 200, in my_ticket_list
+    return render(
+        request,
+    ...<7 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 08:36:43,567] ERROR django.request Internal Server Error: /tickets/me/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 200, in my_ticket_list
+    return render(
+        request,
+    ...<7 lines>...
+        },
+    )
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 08:50:55,718] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 09:30:55,727] WARNING django.request Not Found: /intern/tickets/
+[2025-11-17 09:40:09,839] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 81, in ticket_create
+    return redirect(reverse("ticket_thanks") + f"?id={ticket.pk}")
+                    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ticket_thanks' not found. 'ticket_thanks' is not a valid view function or pattern name.
+[2025-11-17 09:41:29,830] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 81, in ticket_create
+    return redirect(reverse("ticket_thanks") + f"?id={ticket.pk}")
+                    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'ticket_thanks' not found. 'ticket_thanks' is not a valid view function or pattern name.
+[2025-11-17 09:55:12,483] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\views.py changed, reloading.
+[2025-11-17 09:55:13,663] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 09:55:20,578] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 09:59:05,643] WARNING django.request Not Found: /intern/tickets/
+[2025-11-17 09:59:23,361] WARNING django.request Not Found: /intern/tickets/
+[2025-11-17 10:00:18,092] WARNING django.request Not Found: /intern/tickets/
+[2025-11-17 10:13:23,570] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-17 10:13:24,758] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:13:34,325] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:14:43,747] ERROR django.request Internal Server Error: /intern/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 183, in internal_dashboard
+    return render(request, "tickets/intern_dashboard.html", ctx)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 10:15:12,269] ERROR django.request Internal Server Error: /intern/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 183, in internal_dashboard
+    return render(request, "tickets/intern_dashboard.html", ctx)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 10:17:05,583] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-17 10:17:06,870] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:17:11,976] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:17:15,713] WARNING django.request Not Found: /intern/
+[2025-11-17 10:17:18,727] WARNING django.request Not Found: /intern/
+[2025-11-17 10:17:34,310] WARNING django.request Not Found: /intern/
+[2025-11-17 10:17:39,686] WARNING django.request Not Found: /intern/
+[2025-11-17 10:18:12,108] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-17 10:18:13,143] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:18:22,839] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:18:24,963] WARNING django.request Not Found: /intern/
+[2025-11-17 10:18:39,568] WARNING django.request Not Found: /intern/
+[2025-11-17 10:19:39,245] INFO django.utils.autoreload C:\dev\ticketsystem\tickets\urls.py changed, reloading.
+[2025-11-17 10:19:40,235] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:19:46,681] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-11-17 10:19:49,740] ERROR django.request Internal Server Error: /intern/
+Traceback (most recent call last):
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\dev\ticketsystem\tickets\views.py", line 183, in internal_dashboard
+    return render(request, "tickets/intern_dashboard.html", ctx)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\dev\ticketsystem\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'intern_ticket_detail' not found. 'intern_ticket_detail' is not a valid view function or pattern name.
+[2025-11-17 10:47:34,403] WARNING django.security.csrf Forbidden (CSRF token from POST incorrect.): /admin/auth/user/4/change/
+[2025-11-17 10:54:35,525] WARNING django.security.csrf Forbidden (CSRF token from POST incorrect.): /login/

@@ -1,20 +1,14 @@
 from django.contrib import admin
-from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-from tickets import views as tviews
+from django.urls import path, include
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-
-    # Öffentlich
-    path("", tviews.ticket_create, name="ticket_create"),
-    path("danke/", tviews.ticket_thanks, name="ticket_thanks"),
-
-    # Intern (Liste/Details/Statuswechsel)
-    path("intern/", tviews.internal_dashboard, name="intern_dashboard"), 
-    path("intern/tickets/", tviews.internal_ticket_list, name="intern_ticket_list"),
-    path("intern/tickets/<int:pk>/", tviews.internal_ticket_detail, name="intern_ticket_detail"),
+    path("login/",  auth_views.LoginView.as_view(template_name="auth/login.html"), name="login"),
+    path("logout/", auth_views.LogoutView.as_view(), name="logout"),
+    path("", include(("tickets.urls", "tickets"), namespace="tickets")),
 ]
 
 if settings.DEBUG:

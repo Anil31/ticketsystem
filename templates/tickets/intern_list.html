@@ -60,7 +60,7 @@
       </td>
       <td>{{ t.name }} <span class="text-muted">({{ t.email }})</span></td>
       <td>{{ t.updated_at|date:"d.m.Y H:i" }}</td>
-      <td><a class="btn btn-sm btn-outline-primary" href="{% url 'intern_ticket_detail' t.id %}">Öffnen</a></td>
+      <td><a class="btn btn-sm btn-outline-primary" href="{% url 'tickets:intern_ticket_detail' t.id %}">Öffnen</a></td>
     </tr>
     {% empty %}
     <tr><td colspan="7" class="text-center text-muted py-4">Keine Tickets gefunden.</td></tr>

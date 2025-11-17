@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Meine Tickets</h1>
+
+<form method="get" class="mb-3" style="display:flex; gap:.5rem; align-items:center;">
+  <input type="text" name="q" value="{{ q }}" placeholder="Suchen in Titel/Beschreibung">
+  <select name="status">
+    <option value="">Alle Status</option>
+    {% for key,label in statuses %}
+      <option value="{{ key }}" {% if status == key %}selected{% endif %}>{{ label }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Filtern</button>
+  <a href="{% url 'tickets:ticket_new' %}" style="margin-left:auto;">Neues Ticket</a>
+</form>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Titel</th>
+      <th>Kategorie</th>
+      <th>Priorität</th>
+      <th>Status</th>
+      <th>Aktualisiert</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for t in page_obj.object_list %}
+      <tr>
+        <td>{{ t.id }}</td>
+        <td>{{ t.title }}</td>
+        <td>{{ t.category }}</td>
+        <td>
+          {% if t.priority == "critical" %}<strong>Kritisch</strong>
+          {% elif t.priority == "high" %}Hoch
+          {% elif t.priority == "medium" %}Mittel
+          {% else %}Niedrig{% endif %}
+        </td>
+        <td>
+          {% if t.status == "open" %}Offen
+          {% elif t.status == "in_progress" %}In Bearbeitung
+          {% else %}Gelöst{% endif %}
+        </td>
+        <td>{{ t.updated_at|date:"d.m.Y H:i" }}</td>
+        <td><a href="{% url 'tickets:my_ticket_detail' t.pk %}">Details</a></td>
+      </tr>
+    {% empty %}
+      <tr><td colspan="7">Keine Tickets gefunden.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="pagination" style="display:flex; gap:.5rem;">
+  {% if page_obj.has_previous %}
+    <a href="?page={{ page_obj.previous_page_number }}&q={{ q }}&status={{ status }}">« Zurück</a>
+  {% endif %}
+  <span>Seite {{ page_obj.number }} von {{ page_obj.paginator.num_pages }}</span>
+  {% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}&q={{ q }}&status={{ status }}">Weiter »</a>
+  {% endif %}
+</div>
+{% endblock %}

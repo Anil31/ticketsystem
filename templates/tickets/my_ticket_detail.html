@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Ticket #{{ ticket.id }} – {{ ticket.title }}</h1>
+
+<p><strong>Status:</strong>
+  {% if ticket.status == "open" %}Offen
+  {% elif ticket.status == "in_progress" %}In Bearbeitung
+  {% else %}Gelöst{% endif %}
+</p>
+<p><strong>Kategorie:</strong> {{ ticket.category|default:"–" }}</p>
+<p><strong>Priorität:</strong>
+  {% if ticket.priority == "critical" %}<strong>Kritisch</strong>
+  {% elif ticket.priority == "high" %}Hoch
+  {% elif ticket.priority == "medium" %}Mittel
+  {% else %}Niedrig{% endif %}
+</p>
+
+<h3>Beschreibung</h3>
+<p style="white-space:pre-line">{{ ticket.description }}</p>
+
+<h3>Anhänge</h3>
+<ul>
+  {% for att in ticket.attachments.all %}
+    <li><a href="{{ att.file.url }}" target="_blank">{{ att.original_name }}</a></li>
+  {% empty %}
+    <li>Keine Anhänge</li>
+  {% endfor %}
+</ul>
+
+<p><a href="{% url 'tickets:my_tickets' %}">← Zurück zu „Meine Tickets“</a></p>
+{% endblock %}

@@ -2,6 +2,7 @@
 from django.db import models
 from django.core.validators import FileExtensionValidator, MinLengthValidator, validate_email
 from django.utils import timezone
+from django.conf import settings
 
 # --------- Hilfs-Validatoren ----------
 MAX_UPLOAD_MB = 20
@@ -35,6 +36,23 @@ class Ticket(models.Model):
         OPEN = "open", "Offen"
         IN_PROGRESS = "in_progress", "In Bearbeitung"
         RESOLVED = "resolved", "Gelöst"
+
+
+    reporter = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.SET_NULL,
+        null=True, blank=True,
+        related_name="reported_tickets",
+        verbose_name="Gemeldet von"
+    )
+
+    assigned_to = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.SET_NULL,
+        null=True, blank=True,
+        related_name="assigned_tickets",
+        verbose_name="Zugewiesen an"
+    )
 
     # Öffentliche Felder (kein Login -> Name & E-Mail Pflicht)
     name = models.CharField("Ihr Name", max_length=120, validators=[MinLengthValidator(2)])
